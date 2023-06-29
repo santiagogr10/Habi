@@ -1,0 +1,2 @@
+link_venta_apartamentos = $x('//ul[@class="navigation-main"]/li[2]/a/@href').map(x=>x.value)
+Precio_apartamentos =  $x('//div[@class="card-price-header"]/p[@class="price"]/text()').map(x=>x.wholeText)
